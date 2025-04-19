@@ -1,0 +1,17 @@
+{
+  "name": "adam-backend",
+  "scripts": {
+    "start": "firebase emulators:start",
+    "dev": "firebase emulators:start --only functions",
+    "deploy": "firebase deploy --only functions"
+  },
+  "dependencies": {
+    "@thirdweb-dev/sdk": "^4.0.0",
+    "ethers": "^6.10.0",
+    "firebase-admin": "^11.10.1",
+    "firebase-functions": "^4.5.0"
+  },
+  "devDependencies": {
+    "firebase-tools": "^14.2.0"
+  }
+}

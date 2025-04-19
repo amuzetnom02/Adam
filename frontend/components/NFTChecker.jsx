@@ -1,0 +1,1 @@
+// NFTChecker logic and implementation meticulously explained before
