@@ -9,7 +9,10 @@ export default function Home() {
   const [currentView, setCurrentView] = useState("dashboard");
 
   return (
-    <ThirdwebProvider activeChain="ethereum">
+    <ThirdwebProvider 
+      activeChain="ethereum"
+      clientId={process.env.NEXT_PUBLIC_THIRDWEB_CLIENT_ID}
+    >
       <div className="min-h-screen bg-[#e0e5ec] p-4 md:p-8">
         <div className="container mx-auto">
           <header className="flex flex-col md:flex-row justify-between items-center mb-8">
